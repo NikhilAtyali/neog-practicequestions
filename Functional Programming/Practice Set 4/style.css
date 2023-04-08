@@ -1,0 +1,6 @@
+#my-svg {
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+  }

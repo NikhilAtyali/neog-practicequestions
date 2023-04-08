@@ -10,13 +10,13 @@ console.log(person.age); // Output: 35
 const car1 = { make: "Porsche", model: "911", horsepower: 450 };
 const car2 = { make: "Toyota", model: "Camry", horsepower: 200 };
 
-const isSportsCar = (objCar) => {
-  if (objCar.horsepower >= 300) {
-    return true;
-  } else {
-    return false;
-  }
-};
+const isSportsCar = (objCar) =>  objCar.horsepower >=300 ? true : false;
+  // if (objCar.horsepower >= 300) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+
 console.log(isSportsCar(car1)); // true
 console.log(isSportsCar(car2)); // false
 
@@ -26,7 +26,7 @@ console.log(isSportsCar(car2)); // false
 const person1 = { name: "Ajay", age: 20 };
 
 const isEligible = (obj, num) => {
-  if (person1.age + num > 21) {
+  if (obj.age + num >= 21) {
     return true;
   } else {
     return false;
