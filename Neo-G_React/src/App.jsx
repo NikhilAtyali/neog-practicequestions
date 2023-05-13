@@ -7,6 +7,12 @@ import RenderButtons from "./Practice-set-6/RenderButtons"
 import Todos from "./Practice-set-6/Todos"
 import HabitTracker from "./Practice-set-6/HabitTracker"
 import PlayList from "./Practice-set-6/PlayList"
+import Archives from "./Practice-set-6/Archives"
+import Projects from "./Practice-set-6/Projects"
+import UserProfile6 from "./Practice-set-6/userProfile"
+import Video from "./Practice-set-6/Video"
+import Follow from "./Practice-set-6/Follow"
+import Weather from "./Practice-Set-7/Weather"
 
 
 Comments
@@ -29,15 +35,28 @@ const App=()=> {
       {/* <RenderButtons /> */}
       {/* <Todos /> */}
       {/* <HabitTracker /> */}
-      <PlayList />
+      {/* <PlayList /> */}
+      {/* <Archives /> */}
+      {/* <Projects /> */}
+      {/* <UserProfile6 /> */}
+      {/* <Video /> */}
+      <Follow />
       </>
     )
   }
   
+  const PracticeSet7 =()=>{
+    return(
+      <>
+      <Weather />
+      </>
+    )
+  }
   return (
     <>
       {/* <PracticeSet5 /> */}
-      <PracticeSet6 />
+      {/* <PracticeSet6 /> */}
+      <PracticeSet7 />
     </>
   )
 }
