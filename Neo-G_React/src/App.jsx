@@ -13,7 +13,12 @@ import UserProfile6 from "./Practice-set-6/userProfile"
 import Video from "./Practice-set-6/Video"
 import Follow from "./Practice-set-6/Follow"
 import Weather from "./Practice-Set-7/Weather"
-
+import Movies from "./Practice-Set-7/Movies"
+import Company from "./Practice-Set-7/Company"
+import RandomQuotes from "./Practice-Set-7/RandomQuotes"
+import Products7 from "./Practice-Set-7/Products"
+import {StrictMode} from 'react';
+import Sorting from "./Practice-Set-7/Sorting"
 
 Comments
 const App=()=> {
@@ -40,7 +45,7 @@ const App=()=> {
       {/* <Projects /> */}
       {/* <UserProfile6 /> */}
       {/* <Video /> */}
-      <Follow />
+      {/* <Follow /> */}
       </>
     )
   }
@@ -48,7 +53,12 @@ const App=()=> {
   const PracticeSet7 =()=>{
     return(
       <>
-      <Weather />
+      {/* <Weather /> */}
+      {/* <Movies /> */}
+      {/* <Company /> */}
+      {/* <RandomQuotes /> */}
+      {/* <Products7   /> */}
+      <Sorting />
       </>
     )
   }
@@ -56,7 +66,9 @@ const App=()=> {
     <>
       {/* <PracticeSet5 /> */}
       {/* <PracticeSet6 /> */}
+      <StrictMode >
       <PracticeSet7 />
+      </StrictMode >
     </>
   )
 }
